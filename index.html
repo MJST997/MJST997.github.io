@@ -2,7 +2,32 @@
   <head> 
   </head> 
   <body> 
-  <h1> Hello World! </h1> 
-  <div class='tableauPlaceholder' id='viz1640437009569' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FinalProjectDashboard_16404340582330&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='de-DE' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1640437009569');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*1.77)+'px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>  
+  <p> User Guide
+      Filters
+      •	We have four filters
+      o	Major category 
+      	This Filter defines which Major Category the user wants to look at. It is a multiple selection dropdown so the user can compare how activities differ in detail.
+      o	Second category 
+      	This Filter defines which second Category the user wants to look at. It is a multiple selection dropdown so the user can compare how activities differ in detail.
+      o	Activity 
+      	This Filter defines which activity the user wants to look at. It is a multiple selection dropdown so the user can compare how activities differ in detail.
+      o	Month/Year
+      	This filter defines which timeframe the user wants to analyse.  It is a multiple selection dropdown so the user can compare how activities differ in detail across time frames.
+      o	Metropolitan Status
+      	This Filter defines which Metropolitan Status the user wishes to look for. It is a multiple selection dropdown. It is a multiple selection dropdown so the user can compare how activities differ in detail across their living places. 
+      o	Age Category 
+      	This Filter defines which Age Category the user wishes to look for. It is a multiple selection dropdown. It is a multiple selection dropdown so the user can compare how activities differ in detail across their age categories. Its main purpose is for the graphs besides the time spent in activity for each age category graph. 
+      o	 Ethnicity Status
+      	This Filter defines which Ethnicity Status the user wishes to look for. It is a multiple selection dropdown. It is a multiple selection dropdown so the user can compare how activities differ in detail across their ethnic groups. 
+
+      Graphs 
+      •	The first graph name (top left) shows the average of amount of time spent in doing the activities defined by the filters. On the X-axis one can see the years selected in the filter and on the y-axis one can find the average amount of minutes spent doing this activity. 
+      •	The second graph name (bottom left) shows the two genders available in the data set and how they much time on average they spent on the given activities defined by the filters. On the X-axis one can see the years selected in the filter and on the y-axis one can find the average amount of minutes spent doing this activity.
+      •	The third graph name (bottom right) shows the different age groups and how much time they spent on the given activities defined by the filters. When the user uses the age category filter they will trigger the graph to show only the selected age groups. On the X-axis one can see the years selected in the filter and on the y-axis one can find the average amount of minutes spent doing this activity.
+      Engagement rules 
+      •	Filters apply to all graphs in the dashboards. 
+      •	Selecting a data point on one graph will not highlight any points in the other dashboard elements
+      •	First filter by major category then second category and then activity as the activity is the lowest level 
+  </p> 
   </body> 
 </html>
